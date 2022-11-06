@@ -12,7 +12,7 @@
     "test": "jest",
     "test:cov": "jest --coverage",
     "test:watch": "jest --watch",
-    "clean": "rimraf ./dist",
+    "clean": "rimraf ./coverage ./dist",
     "build": "tsc -p tsconfig.json",
     "build:release": "npm run clean && npm run build"
   },
