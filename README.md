@@ -9,8 +9,9 @@ Boilerplate for a NodeJS project with TypeScript, ESLint, Prettier and Jest incl
 
 ### Included Scripts
 
-- `dev` - run the code with auto-restart
-- `start` : run the code
+- `dev` - run in dev mode with auto-restart
+- `start:dev` - run in dev mode
+- `start` - run in production mode
 - `lint` - lint source files and tests
 - `prettier` - reformat files
 - `test` - run tests
