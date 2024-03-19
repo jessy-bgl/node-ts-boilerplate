@@ -10,11 +10,11 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  plugins: ['@typescript-eslint', 'jest'],
+  plugins: ['@typescript-eslint', 'vitest'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:jest/recommended',
+    'plugin:vitest/recommended',
     'prettier',
   ],
   rules: {},

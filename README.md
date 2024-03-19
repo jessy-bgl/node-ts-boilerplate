@@ -1,5 +1,6 @@
 # node-ts-boilerplate
-Boilerplate for a NodeJS project with TypeScript, ESLint, Prettier and Jest included.
+
+Boilerplate for a NodeJS project with TypeScript, ESLint, Prettier and Vitest included.
 
 ## Getting Started
 
@@ -20,5 +21,3 @@ Boilerplate for a NodeJS project with TypeScript, ESLint, Prettier and Jest incl
 - `clean` - remove coverage data and transpiled files
 - `build` - transpile TypeScript to ES5
 - `build:release` - clean + build
-
-
